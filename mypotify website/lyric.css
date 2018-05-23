@@ -1,0 +1,157 @@
+*{
+		margin:0px 0px;
+		padding:0px;
+		}
+	body{
+		background-color:#78286B;
+		}
+	
+					
+			header{
+				width:960px;
+				height:30px;
+				margin: auto auto;
+				padding:30px;
+				/*background-color:#000033;*/
+			}
+			
+			header nav ul{
+				list-style: none;
+				}
+
+			header nav ul li{
+				float:right;
+			}
+			header nav ul li a{
+				text-decoration: none;
+				display:block;
+				width: 160px;
+				height:30px;
+				color: white;
+				background-color:#867DB0;
+				text-align: center;
+				line-height: 30px;
+				font-weight: bold;
+				box-shadow: 1px 1px 1px rgba(81,79,79,1.00);
+				font-family: 'BElham';
+				transition:background-color .5s ease-out ;
+				border-radius:0px;
+			}
+
+			header nav ul li a:hover{
+				background-color:rgba(88,16,188,1.00);
+			}
+			header nav ul li a:active{
+        		font-size:20px;	
+			}
+			
+			a[name="Home"],a[name="about us"]{
+				border-radius:8px;
+				}
+				a[name="about us"]{
+					border-bottom-right-radius:0px;
+					border-top-right-radius:0px;
+					}
+				a[name="Home"]{
+					border-bottom-left-radius:0px;
+					border-top-left-radius:0px;
+					}	
+					
+					#cover{
+						width:960px;
+						height:auto;
+						background-color:#080E3B;
+						margin:auto auto;
+						border-radius:8px;
+						}
+						
+				#products{
+					width:960px;
+					height:500px;
+					margin:auto auto;
+					text-align:center;
+					}
+					
+				#products #col1{
+					width:800px;
+					height:400px;
+					float:left;
+					margin:50px 80px;
+					border-radius:8px;		
+					background-image:url(images/download-free-Cher-Lloyd-wallpapers.jpg);
+					background-size:cover;
+					background-position:center;
+					position:relative;
+					overflow:hidden;
+					transition:all .4s;
+					}
+				
+					#products a{
+						
+					text-decoration:none;
+					font-weight:bold;
+					color:black;
+					font-size:25px;
+					position:relative;
+					overflow:hidden;
+					width:800px;
+					height:100px;
+					border-radius:0px;
+					position:absolute;
+					left:-800px;
+					bottom:0px;
+					background-color:rgba(29,28,28,0.70);
+					transition:all .4s;
+					text-align:center;
+					line-height:34px;
+					font-weight:bold;
+					}
+					#products #col1:hover #text1 a{
+						left:0px;
+						}
+						
+				h1{
+					color:rgba(200,199,18,1.00);
+					}
+					
+				h3{
+					color:white;
+					}			
+					
+			aside{
+				width:55px;
+				height:220px;
+				border-radius:50px;
+				background-color:rgba(138,136,136,1.00);
+				position:fixed;
+				top:250px;
+				bottom:auto;
+				right:-30px;	
+				transition:all .4s ease-in;
+				text-align:center;
+				padding:2px;
+			}
+			aside:hover{
+				right:0px;
+				}
+			
+				aside img{
+				transition:all .3s ease-in;
+				border-radius:50%;
+			}
+			
+			aside img:hover{
+				transform:rotate(360deg);
+				}
+
+
+			footer{
+				width:1368px;
+				background-color:rgba(0,0,0,.8);
+				border-radius:0px;
+				text-align: center;
+				line-height: 100px;
+				font-weight: bold;
+				margin: 5px auto;
+				color: white;
+			}		

@@ -1,0 +1,70 @@
+*{
+	margin:0px 0px;
+	padding:0px;
+	border-radius:8px;
+	}/* CSS Document */
+
+body{
+	background-color:#550000;
+	margin:auto auto;
+	}
+
+#img1{
+	width:1368px;
+	height:150px;
+	margin:auto auto;
+	background-image:url(images/about-us-banner.jpg);
+	background-size:cover;
+	background-position:center;
+	border-radius:20px;
+	}	
+	
+#main{
+	width:960px;
+	height:auto;
+	background-color:blue;
+	margin:20px auto;
+	text-align:center;
+	color:rgba(18,191,75,1.00);
+	}	
+	
+#me{
+	width:100px;
+	height:100px;
+	float:right;
+	background-image:url(images/roozbeh.jpg);
+	border-radius:50%;
+	background-size:cover;
+	background-position:center;
+
+	}
+		
+#who{
+	width:960px;
+	height:auto;
+	margin:20px auto;
+	background-color:#0F073B;
+	float:left;
+	text-align:left;
+	color:#857DB1;
+	}	
+	
+#web{
+	width:960px;
+	height:auto;
+	margin:auto auto;
+	background-color:#004400;
+	float:left;
+	text-align:left;
+	color:#88CC88;
+	}	
+	
+h1{
+	color:rgba(173,196,44,1.00);
+	}	
+	
+pre{
+	font-size:30px;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	}	
+	

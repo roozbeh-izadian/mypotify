@@ -1,0 +1,333 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Roozbeh</title>
+<style type="text/css">
+			
+			*{
+				margin:0px;
+				padding:0px;
+				border-radius:8px;
+				}
+			
+		body{
+			background-color:#611047;	
+			}	
+			
+	table{
+				text-align: center;
+				margin:0px auto;
+
+			}
+
+			td
+			{
+				border:none;
+				border-radius:8px;	
+				height:40px;
+				font-family:tahoma;
+				font-size:15px;
+				font-weight: bold;
+				color:white;
+			}
+			tr:nth-child(even)
+			{
+				background-color:rgba(100,0,255,.7);
+			}
+			tr:nth-child(odd)
+			{
+				background-color:rgba(0,0,255,.7);
+			}
+			input[name="birth"],input[name="pass"], input[name="email"]
+			{
+				width:340px;
+				height:40px;
+				border:none;
+				color:white;
+				font-size:15px;
+				background-color:rgba(100,0,255,.7);
+				border-radius:8px;
+			}
+			
+			input[name="username"],input[name="repass"],select{
+				width:340px;
+				height:40px;
+				border:none;
+				color:white;
+				font-size:15px;
+				background-color:rgba(0,0,255,.7);
+				border-radius:8px;			
+			}
+			
+			select
+			{
+				height:40px;
+			}
+				
+			#submit{
+				background-color:#611047;
+				width:150px;
+				height:30px;
+				position:absolute;
+				right:10px;
+				}	
+			input[type="submit"]{
+				width:150px;
+				height:30px;
+				margin:auto auto;
+				background-color:#5AAC56;
+				color:white;
+				font-size:15px;
+				}	
+				
+				
+			header{
+				width:960px;
+				height:30px;
+				margin: auto auto;
+				padding:30px;
+				
+				/*background-color:#000033;*/
+			}
+
+			header nav ul{
+				list-style: none;
+				}
+
+			header nav ul li{
+				float:right;
+			}
+			header nav ul li a{
+				text-decoration: none;
+				display:block;
+				width: 160px;
+				height:30px;
+				color: white;
+				background-color:#867DB0;
+				text-align: center;
+				line-height: 30px;
+				font-weight: bold;
+				box-shadow: 1px 1px 1px rgba(81,79,79,1.00);
+				font-family: 'BElham';
+				transition:background-color .5s ease-out ;
+				border-radius:0px;
+			}
+
+			header nav ul li a:hover{
+				background-color:rgba(88,16,188,1.00);
+			}
+			header nav ul li a:active{
+        		font-size:20px;	
+			}
+			
+			a[name="Home"],a[name="about us"]{
+				border-radius:20px;
+				}
+				a[name="about us"]{
+					border-bottom-right-radius:0px;
+					border-top-right-radius:0px;
+					}
+				a[name="Home"]{
+					border-bottom-left-radius:0px;
+					border-top-left-radius:0px;
+					}	
+					
+					#sidebar{
+						width:200px;
+						height:340px;
+						float:left;
+						position:absolute;
+						top:28px;
+						
+						}	
+						
+						aside{
+				width:55px;
+				height:220px;
+				background-color:#867DB0;
+				position:absolute;
+				top:143px;
+				bottom:auto;
+				right:-20px;	
+				transition:all .4s ease-in;
+				text-align:center;
+				padding:2px;
+				border-radius:50px;
+				float:right;
+			}
+			aside:hover{
+				right:0px;
+				}
+			
+				aside img{
+				transition:all .3s ease-in;
+				border-radius:50%;
+			}
+			
+			aside img:hover{
+				transform:rotate(360deg);
+				}
+
+
+						
+			
+			
+						footer{
+				width:1368px;
+				height:100px;
+				background-color:rgba(0,0,0,.8);
+				border-radius:0px;
+				text-align: center;
+				line-height: 100px;
+				font-weight: bold;
+				margin:5px auto 0px auto;
+				color: white;
+			}
+			
+			
+</style>
+</head>
+
+<body>
+
+		<header>
+				<nav>
+					<ul>
+                        <li><a href="Home.html" name="Home">Home</a></li>
+						<li><a href="gallery.html" name="galery">Gallery</a></li>
+                        <li><a href="register.html" name="Register">Register</a></li>
+                        <li><a href="Log in.html" name="Log in">Log in</a></li>
+                        <li><a href="Contact us.html">Contact us</a></li>
+						<li><a href="About us.html" name="about us">About us</a></li>
+					</ul>
+				</nav>
+			</header>
+            
+                <aside>
+         		<a href="https://www.facebook.com/roozbeh.eizadian?ref=tn_tnmn"><img src="images/facebook.png" alt="facebook icon" width="50px" height="50px"/></a>
+                
+               <a href="https://twitter.com/roozbeh1372"> <img src="images/twitter.png" alt="twitter icon" width="50px" height="50px"/></a>
+               
+                <img src="images/yahoo.png" alt="yahoo icon" width="50px" height="50px"/>
+                
+                <img src="images/linkedin.png" alt="linkedin icon" width="50px" height="50px"/>
+                
+             </aside>
+
+	<form name="register" action="form.php" method="post">
+    
+    	<fieldset style="width:500px; height:530px;margin:0px auto; border-color:#5AAC56;position:relative;">
+        
+   			 <legend style="text-align:center;color:#5AAC56;font-size:30px;">Register</legend>
+             
+				<table border="0" align="center" width="500px" cellpadDing="5px" cellspacing="10px" >
+			<tr>
+				<td width="150px">
+				User name
+				</td>
+				
+				<td width="350">
+					<input type="text" id="username" name="username" />
+				</td>
+				
+			
+			</tr>
+			
+			<tr>
+				<td>
+				Password
+				</td>
+				
+				<td>
+					<input type="password" name="pass" id="pass"/>
+				</td>
+				
+			</tr>
+            
+            <tr>
+				<td>
+				reenter password
+				</td>
+				
+				<td>
+					<input type="password" name="repass" id="pass"/>
+				</td>
+			
+			</tr>
+            
+            <tr>
+				<td>
+				Email
+				</td>
+				
+				<td>
+					<input type="text" name="email" id="email"/>
+				</td>
+			
+			</tr>
+            
+			<tr >
+				<td>
+					Sex
+				</td>
+				
+				<td>
+				<input type="radio" name="sex" value="male" checked="checked" /><lable>male</lable>
+				<input type="radio" name="sex" value="female"  /><lable>female</lable>
+				</td>
+				
+			</tr>
+			
+			<tr>
+				<td>
+					Intrests
+				</td>
+				
+				<td>
+					<input type="checkbox" name="intrrsts" value="ورزش" /><lable>Sport</lable>
+					<input type="checkbox" name="intrests" value="موسیقی"/><lable>Music<lable>
+					<input type="checkbox" name="intrests" value="مطالعه" /><lable>Study</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					Education
+				</td>
+				<td>
+				<select>
+					<option>
+						Collegue
+					</option>
+					<option>
+						Graduate
+					</option>
+					<option>
+						Doctoral
+					</option>
+					
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Birthday</td>
+				<td>
+					<input type="date" name="birth" />
+				</td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td>
+					<input type="range"/>
+				</td>
+			</tr>
+            <td id="submit">
+            <input type="submit"/>
+			</td>
+		</table>
+        </fieldset>
+		</form>
+        <footer>&copy All rights reserved</footer>
+</body>
+</html>

@@ -1,0 +1,404 @@
+
+	*{
+		margin:0px;
+		padding:0px;
+		}
+	
+	body{
+		background-color:#090A3A;
+		}
+		
+	#total{
+		width:1351px;
+		height:auto;
+		margin:auto auto;
+		}
+		
+				
+	#head{
+		width:1351px;
+		height:200px;
+		margin:auto auto;
+		float:left;
+		}	
+		
+	#img1{
+		width:193px;
+		height:200px;
+		background-image:url(images/cher5.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+			
+	#img2{
+		width:193px;
+		height:200px;
+		background-image:url(images/cher4.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+			
+	#img3{
+		width:193px;
+		height:200px;
+		background-image:url(images/kwzcgxwn.jpeg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+			
+	#img4{
+		width:193px;
+		height:200px;
+		background-image:url(images/Cher-Lloyd-Sticks-Stones-HD-2012.png);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+			
+	#img5{
+		width:193px;
+		height:200px;
+		background-image:url(images/new-song.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img6{
+		width:193px;
+		height:200px;
+		background-image:url(images/cher1.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+				
+	#img7{
+		width:193px;
+		height:200px;
+		background-image:url(images/cher2.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+	
+	#leftside{
+		width:195.5px;
+		height:3000px;
+		float:left;
+		top:380px;
+		left:0px;
+		background-color:red;
+		}
+	
+	#img8{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher3.png);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img9{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher6.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+			
+	#img10{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher7.png);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+	#img11{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher8.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+	#img12{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher9.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+	#img13{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher10.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+	#img14{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher11.png);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+	#img15{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher12.png);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img16{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher13.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img17{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher14.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img18{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher15.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img19{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher16.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img20{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher17.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img21{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher18.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}
+		
+	#img22{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher19.jpg);
+		background-position:center;
+		background-size:cover;
+		float:left;
+		}							
+								
+	#rightside{
+		width:195.5px;
+		height:3000px;
+		float:right;
+		background-color:red;
+		}	
+		
+	#img23{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher20.jpg);
+		background-position:right;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img24{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher21.png);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img25{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher22.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img26{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher23.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img27{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher24.jpg);
+		background-position:right;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img28{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher25.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img29{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher26.png);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img30{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher27.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img31{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher28.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img32{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher29.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img33{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher30.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img34{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher31.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img35{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher32.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img36{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher35.png);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}
+		
+	#img37{
+		width:195.5px;
+		height:200px;
+		background-image:url(images/cher33.jpg);
+		background-position:center;
+		background-size:cover;
+		float:right;
+		}														
+		
+	#main{
+		width:960px;
+		height:3000px;
+		background-color:#3F012C;
+		color:#BC7CA9;
+		margin:auto auto;
+		float:left;	
+		border-radius:8px;
+		text-align:center;
+		}	
+		
+	h1{
+		color:#FFFDAA;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		}	
+		
+	pre{
+		height:3000px;
+		font-size:20px;
+		font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		font-size:25px;
+		}	
+		
+	footer{
+		width:1351px;
+		height:100px;
+		background-color:rgba(0,0,0,.8);
+		border-radius:0px;
+		text-align: center;
+		line-height: 100px;
+		font-weight: bold;
+		font-size:20px;
+		float:left;
+		margin:auto auto;
+		color: white;
+		}	
